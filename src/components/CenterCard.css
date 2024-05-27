@@ -1,0 +1,42 @@
+.workspace-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .workspace-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .workspace-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .workspace-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .workspace-info {
+    padding: 16px;
+  }
+  
+  .workspace-info h3, .workspace-info h4 {
+    margin: 8px 0;
+  }
+  
+  .pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .discount {
+    color: red;
+    font-weight: bold;
+  }

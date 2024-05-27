@@ -1,0 +1,54 @@
+.workspace-ad {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .ad-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ad-text {
+    flex: 1;
+    max-width: 60%;
+  }
+  
+  .ad-text h1 {
+    font-size: 40px;
+    /* color: #E89A19; */
+  }
+  
+  .ad-video {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .ad-video video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media query for mobile screens */
+  @media (max-width: 768px) {
+    .ad-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .ad-text, .ad-video {
+      max-width: 100%;
+    }
+  
+    .ad-text {
+      order: 2;
+      margin-top: 20px;
+    }
+  
+    .ad-video {
+      order: 1;
+    }
+  }

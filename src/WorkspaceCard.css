@@ -1,0 +1,52 @@
+.workspace-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s;
+  }
+  
+  .workspace-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .workspace-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .workspace-details {
+    padding: 16px;
+  }
+  
+  .workspace-details h3 {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+  
+  .workspace-details p {
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  .price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .discount-message {
+    color: #ff6347;
+    font-size: 0.875rem;
+  }
+  
